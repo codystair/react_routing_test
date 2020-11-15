@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserHistory } from "history";
+// import { createBrowserHistory } from "history";
 
 import {
   BrowserRouter as Router,
@@ -118,7 +118,7 @@ class BlackSea extends React.Component {
   }
 }
 
-export const history = createBrowserHistory({
-  basename: process.env.PUBLIC_URL,
-});
+// export const history = createBrowserHistory({
+//   basename: process.env.PUBLIC_URL,
+// });
 export default App;
