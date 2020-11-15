@@ -11,6 +11,6 @@ import "./semantic-dist/semantic.min.css";
 
 // [STEP 1] Comment out this line:
 // import "./index-complete";
-
+// test comment
 // [STEP 2] Un-comment this line:
 ReactDOM.render(<App />, document.getElementById("root"));
