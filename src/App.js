@@ -1,4 +1,5 @@
 import React from "react";
+import { createBrowserHistory } from "history";
 
 import {
   BrowserRouter as Router,
@@ -9,7 +10,7 @@ import {
 } from "react-router-dom";
 
 const App = () => (
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router>
     <div className="ui text container">
       <h2 className="ui dividing header">Which body of water?</h2>
 
@@ -117,4 +118,7 @@ class BlackSea extends React.Component {
   }
 }
 
+export const history = createBrowserHistory({
+  basename: process.env.PUBLIC_URL,
+});
 export default App;
