@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 
 const App = () => (
-  <Router>
+  <Router basename="/">
     <div className="ui text container">
       <h2 className="ui dividing header">Which body of water?</h2>
 
