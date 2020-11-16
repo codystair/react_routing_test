@@ -48,7 +48,7 @@ const App = () => (
         <Route path="/pacific" component={Pacific} />
         <Route path="/black-sea" component={BlackSea} />
         <Route
-          exact
+          // exact
           path="/"
           render={() => <h3>Welcome! Select a body of saline water above.</h3>}
         />
