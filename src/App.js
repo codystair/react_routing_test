@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 
 const App = () => (
-  <BrowserRouter basename={process.env.BASE_PATH}>
+  <Router basename="/testing/da3e3e21deaf130c1c4afcc00708818204f1b9ce">
     <div className="ui text container">
       <h2 className="ui dividing header">Which body of water?</h2>
 
@@ -63,7 +63,7 @@ const App = () => (
         />
       </Switch>
     </div>
-  </BrowserRouter>
+  </Router>
 );
 
 const Atlantic = () => (
